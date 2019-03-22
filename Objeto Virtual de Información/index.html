@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Objeto Virtual de Información</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--slider  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+    <!-- banner -->
+    <div class="banner-wrapper">
+      <header>
+        <div class="header-inner"
+        <!--logo  -->
+        <a href="index.html" id="logo">
+        <img src="img/imagen_1.png"alt="">
+        </a>
+        <!--ir a buscar en pagina web  -->
+        <nav>
+          <a href="#"id="menu-icon">
+          <i class="fa fa-bars"></i>
+        </a>
+        <ul>
+          <li>
+            <!-- ir a pagina principal -->
+            <a href="index.html">Inicio</a>
+          </li>
+          <li>
+            <!-- habilidades -->
+            <a href="#o1">objetivo específico 1</a>
+          </li>
+          <li>
+            <!-- habilidades -->
+            <a href="#o2">objetivo específico 2</a>
+          </li>
+          <li>
+            <!-- habilidades -->
+            <a href="#o3">objetivo específico 3</a>
+          </li>
+        </ul>
+        </nav>
+      </header>
+      <div class="slide-wrap">
+      <ul class="slider1">
+        <li><img src="img/slider/imagen_1.png" alt=""></li>
+        <li><img src="img/slider/imagen_2.png" alt=""></li>
+        <li><img src="img/slider/imagen_3.png" alt=""></li>
+      </ul>
+      </div>
+
+    </div>
+  <!-- scrips -->
+<script>
+  $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+  </body>
+</html>
