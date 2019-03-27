@@ -1,3 +1,88 @@
-background{
-   #rgba(255, 0, 0, 0.5);
+body{
+  font: 15px Angsana new, arial, helvetica;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
 }
+/* Estilos globales */
+.contenedor{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+/* Encabezado*/
+header a{
+  color: ##000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px
+}
+
+header li{
+ float: left;
+ display: inline;
+ padding: 0 20px 0 20px;
+}
+
+header #marca{
+  float: left;
+
+}
+
+
+header #marca h1{
+  margin: 0;
+}
+
+  header nav{
+    float:right;
+    margin-top:  10px;
+  }
+
+  header .resaltado, header .actual a{
+    color: #FF4000
+    font-weight: bold;
+  }
+  header a: hover{
+    color: #ccc;
+  }
+
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        margin-bottom: -4px;
+          }
+        p {
+          color: #524c56;
+          font-size: 160%;
+          line-height: 155%;
+          padding: 3%;
+          text-indent: 2%;
+          text-align: justify;
+          }
+   h2 {
+     font-size: 175%;
+     line-height: 155%;
+     font-weight: 500;
+     color: #000000;
+     text-align: center;
+     text-transform: uppercase;
+     padding: 0;
+      }
+
+      h1{text-align: center;}
+
+      li{
+        text-align: justify;
+        font-size: 175%;
+        line-height: 155%;
+        font-weight: 500;
+        }
